@@ -1,0 +1,45 @@
+
+$background-color_2: url(../imagenes/Midnight\ City.jpg);
+
+.contenedor {
+	background-image: url(../imagenes/Midnight\ City.jpg);
+	height: 800px;
+	width: 800px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 4px;
+	color: $color_2;
+	box-shadow: 7px 13px 37px #000;
+}
+.control {
+	width: 100%;
+	background-color: $background-color_1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid #181818;
+	font-size: 18px;
+	&:focus {
+		height: 60px;
+	}
+}
+.boton {
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	border-radius: 4px;
+	border: none;
+	color: $color_2;
+	text-transform: uppercase;
+	background: linear-gradient(to left top, #8d8d8d,#000000);
+	font-size: 20px;
+	&:hover {
+		cursor: pointer;
+		transform: translateY(-3px);
+		transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+	}
+	&:active {
+		transform: translateY(3px);
+	}
+}

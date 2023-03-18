@@ -1,0 +1,139 @@
+ 
+
+.imgLogo {
+    height: 8rem;
+    width: 8rem;
+}
+
+.navbar-nav{
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 70%;
+
+}
+
+
+
+
+
+li {
+    display: inline-block;
+    padding-left: 1%;
+    margin-top: -4%;
+    position:relative;
+}
+
+nav {
+    background-color: $background-color_1;
+    height: 18rem;
+    width: 100vw;
+    
+}
+
+nav a {
+    color: $color_2;
+}
+
+.dropdown-menu {
+  display: block;
+}
+
+.imgInicio {
+    background-image: url(../imagenes/barra-botellas-exhibidas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+    width: auto;
+}
+
+.imgNosotros {
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    filter: grayscale(90%);
+
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
+
+.contenedorIcon svg {
+    width: 30px;
+    height: 30px;
+    color: $color_2;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+main {
+    background-color: $background-color_1;
+}
+
+h1 {
+    font-size: 40px;
+    color: $color_3;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: $color_4;
+    text-align: center;
+}
+
+h3 {
+    font-size: 27px;
+    color: $color_4;
+    text-align: center;
+}
+
+
+img .carImg {
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0.6);
+}
+
+.footer1 {
+    background-color: $background-color_1;
+    height: 40px;
+}
+
+.botonRes {
+    display: inline-block;
+}
+
+.imgServicio {
+    margin-left: 20%;
+    height: 60%;
+    width: 60%;
+}
+
+p {
+    text-align: center;
+}
+
+.carusel-item {
+    background-color: $background-color_1;
+    height: 700px;
+}
+
+.carusel-item img {
+    height: 20rem;
+    max-width: 100%;
+    object-fit: contain;
+
+}
+
+.imgCaru {
+    justify-content: center;
+
+}
+
+.carContenedor {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
